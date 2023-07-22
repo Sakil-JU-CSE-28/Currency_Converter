@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        >
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USD to BDT"
+            android:id="@+id/usdtobdt"
+            android:onClick="Converter"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BDT to USD"
+            android:id="@+id/bdtousd"
+        android:onClick="Converter"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EURO to BDT"
+            android:id="@+id/Eurotobd"
+            android:onClick="Converter"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BDT to EURO"
+            android:id="@+id/bdtoeuro"
+            android:onClick="Converter"
+            />
+
+    </RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="amount"
+        android:layout_gravity="center"
+        android:id="@+id/editAmount"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amountView"
+        android:layout_gravity="center"
+        android:hint="converted amount"
+        android:textStyle="bold"
+        android:textColor="#00ff00"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
+

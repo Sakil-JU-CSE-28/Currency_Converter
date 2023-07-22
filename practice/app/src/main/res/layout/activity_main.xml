@@ -56,8 +56,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/amountView"
         android:layout_gravity="center"
-        android:hint="converted amount"
+        android:hint="Converted Amount"
         android:textStyle="bold"
+        android:background="@color/white"
         android:textColor="#00ff00"
         android:textSize="20sp"
         />

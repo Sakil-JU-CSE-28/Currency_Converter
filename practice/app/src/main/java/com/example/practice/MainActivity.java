@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
           }
           else
           {
-             res = "Some Error Happen";
+             res = "Error!!";
               msg.setText(res);
           }
 
